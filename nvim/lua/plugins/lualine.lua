@@ -35,7 +35,7 @@ return {
                         },
                   }
 
-                  require("lualine").setup {
+                  require("lualine").setup({
                         options = {
                               theme = bubbles_theme,
                               component_separators = "",
@@ -64,7 +64,7 @@ return {
                         },
                         tabline = {},
                         extensions = {},
-                  }
+                  })
             end,
       },
 }

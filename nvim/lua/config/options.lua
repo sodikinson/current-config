@@ -14,7 +14,16 @@ vim.opt.autoindent = true
 vim.opt.cmdheight = 2
 vim.opt.wrap = false
 --text wrap width
-vim.opt.textwidth = 100
+vim.opt.textwidth = 115
 vim.opt.swapfile = false
 vim.opt.termguicolors = true
 vim.opt.colorcolumn = "120"
+
+-- smarter search
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+-- how to show autocomplete menu
+vim.opt.completeopt = "menuone,noinsert"
+
+vim.o.fillchars = "eob: "

@@ -26,10 +26,10 @@ return {
             },
 
             config = function()
-                  local notify = require "notify"
-                  notify.setup { fps = 120, render = "minimal", timeout = 500 }
+                  local notify = require("notify")
+                  notify.setup({ fps = 120, render = "minimal", timeout = 500 })
 
-                  require("noice").setup {
+                  require("noice").setup({
                         cmdline = {
                               format = {
                                     search_and_replace = {
@@ -82,7 +82,7 @@ return {
                                     },
                               },
                         },
-                  }
+                  })
             end,
 
             dependencies = {
